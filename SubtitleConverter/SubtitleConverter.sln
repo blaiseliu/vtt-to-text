@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SubtitleConverter", "SubtitleConverter.csproj", "{7B70AEC4-216D-4447-AF32-B11DB21D8CC2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SubtitleConverter.Tests", "..\SubtitleConverter.Tests\SubtitleConverter.Tests.csproj", "{0D6ED448-A056-41D5-902E-B5E28B2CAB13}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7B70AEC4-216D-4447-AF32-B11DB21D8CC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B70AEC4-216D-4447-AF32-B11DB21D8CC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B70AEC4-216D-4447-AF32-B11DB21D8CC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B70AEC4-216D-4447-AF32-B11DB21D8CC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D6ED448-A056-41D5-902E-B5E28B2CAB13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D6ED448-A056-41D5-902E-B5E28B2CAB13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D6ED448-A056-41D5-902E-B5E28B2CAB13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D6ED448-A056-41D5-902E-B5E28B2CAB13}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {554DF8DE-6571-40E8-AFE2-80CE142F9E34}
+	EndGlobalSection
+EndGlobal
