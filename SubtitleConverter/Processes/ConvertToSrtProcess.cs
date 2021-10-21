@@ -41,6 +41,7 @@ namespace SubtitleConverter.Processes
             using var sr = new StreamReader(source);
 
             int lineNumber = 1;
+            var previousLine = "";
             while (!sr.EndOfStream)
             {
                 var line = sr.ReadLine();
@@ -69,16 +70,22 @@ namespace SubtitleConverter.Processes
                     if (divIt1 == 2 && divIt2 == 2)
                         timeFormat = extendedTimeFormat;
 
+                    output.AppendLine(line);
                 }
 
                 else
                 {
+                    _logger.LogInformation($"prev: {previousLine}");
+                    _logger.LogInformation($"line: {line}");
                     line = DeleteCueSettings(line);
-                    _logger.LogInformation($"DeleteCueSettings: {line}");
-                }
 
-                if (!string.IsNullOrWhiteSpace(line))
-                { output.AppendLine(line); }
+                    if (!string.IsNullOrWhiteSpace(line) &&
+                        line != previousLine)
+                    {
+                        output.AppendLine(line);
+                        previousLine = line;
+                    }
+                }
             }
 
 

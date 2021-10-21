@@ -57,3 +57,4 @@ D:\CodistCafe\vtt-to-text\SubtitleConverter\obj\Debug\netcoreapp3.1\SubtitleConv
 D:\CodistCafe\vtt-to-text\SubtitleConverter\obj\Debug\netcoreapp3.1\SubtitleConverter.dll
 D:\CodistCafe\vtt-to-text\SubtitleConverter\obj\Debug\netcoreapp3.1\SubtitleConverter.pdb
 D:\CodistCafe\vtt-to-text\SubtitleConverter\obj\Debug\netcoreapp3.1\SubtitleConverter.genruntimeconfig.cache
+D:\CodistCafe\vtt-to-text\SubtitleConverter\obj\Debug\netcoreapp3.1\SubtitleConverter.csproj.AssemblyReference.cache

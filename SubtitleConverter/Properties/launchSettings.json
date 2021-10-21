@@ -1,7 +1,8 @@
 {
   "profiles": {
     "SubtitleConverter": {
-      "commandName": "Project"
+      "commandName": "Project",
+      "commandLineArgs": "srt -s \"D:\\YouTube\\Critical Race Theory Targeted in Virginia Gov. Race _ The View-Hdx4JsDIsWs.en.vtt\""
     }
   }
 }
