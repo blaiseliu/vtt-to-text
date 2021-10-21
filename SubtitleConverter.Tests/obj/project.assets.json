@@ -6490,21 +6490,17 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\liuji\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\liuji\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\GitHub\\vtt-to-text\\SubtitleConverter.Tests\\SubtitleConverter.Tests.csproj",
+      "projectUniqueName": "D:\\CodistCafe\\vtt-to-text\\SubtitleConverter.Tests\\SubtitleConverter.Tests.csproj",
       "projectName": "SubtitleConverter.Tests",
-      "projectPath": "C:\\GitHub\\vtt-to-text\\SubtitleConverter.Tests\\SubtitleConverter.Tests.csproj",
+      "projectPath": "D:\\CodistCafe\\vtt-to-text\\SubtitleConverter.Tests\\SubtitleConverter.Tests.csproj",
       "packagesPath": "C:\\Users\\liuji\\.nuget\\packages\\",
-      "outputPath": "C:\\GitHub\\vtt-to-text\\SubtitleConverter.Tests\\obj\\",
+      "outputPath": "D:\\CodistCafe\\vtt-to-text\\SubtitleConverter.Tests\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
         "C:\\Users\\liuji\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -6520,8 +6516,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\GitHub\\vtt-to-text\\SubtitleConverter\\SubtitleConverter.csproj": {
-              "projectPath": "C:\\GitHub\\vtt-to-text\\SubtitleConverter\\SubtitleConverter.csproj"
+            "D:\\CodistCafe\\vtt-to-text\\SubtitleConverter\\SubtitleConverter.csproj": {
+              "projectPath": "D:\\CodistCafe\\vtt-to-text\\SubtitleConverter\\SubtitleConverter.csproj"
             }
           }
         }
@@ -6568,7 +6564,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }

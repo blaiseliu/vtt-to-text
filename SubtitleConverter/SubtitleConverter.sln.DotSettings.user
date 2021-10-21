@@ -1,7 +1,0 @@
-﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=9eb692f9_002D1ac5_002D4290_002Dbe64_002D5b40994376b9/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="RegexTest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
-  &lt;TestAncestor&gt;&#xD;
-    &lt;TestId&gt;NUnit3x::0D6ED448-A056-41D5-902E-B5E28B2CAB13::.NETCoreApp,Version=v3.1::SubtitleConverter.Tests.Tests.RegexTest&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;NUnit3x::0D6ED448-A056-41D5-902E-B5E28B2CAB13::.NETCoreApp,Version=v3.1::SubtitleConverter.Tests.Tests.ServiceTest&lt;/TestId&gt;&#xD;
-  &lt;/TestAncestor&gt;&#xD;
-&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

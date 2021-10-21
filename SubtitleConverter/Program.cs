@@ -25,8 +25,10 @@ namespace SubtitleConverter
             var host = Host.CreateDefaultBuilder()
                 .ConfigureServices((context, services) =>
                 {
-                    services.AddTransient<IConvertProcess, ConvertProcess>();
-                    services.AddTransient<IConvertServices, ConvertServices>();
+                    services.AddTransient<IConvertToTextProcess, ConvertToTextProcess>();
+                    services.AddTransient<IConvertToTextServices, ConvertToTextServices>();
+                    services.AddTransient<IConvertToSrtProcess, ConvertToSrtProcess>();
+                    services.AddTransient<IConvertToSrtServices, ConvertToSrtServices>();
                 })
                 .UseSerilog()
                 .Build();

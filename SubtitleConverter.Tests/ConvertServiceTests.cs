@@ -75,7 +75,7 @@ inequality in other respects.
         [Test]
         public void ServiceTest()
         {
-            var service = new ConvertServices();
+            var service = new ConvertToTextServices();
             var output = service.ConvertVTT(vtt);
             var expected = @"WEBVTT   KEVIN PORTTEUS: Equality was the first and most  fundamental tenet of the Founders'  understanding of the laws of nature and of nature's god.  But they had a very particular way  of understanding what equality meant.  It did not mean equality of outcome.  It didn't really even mean equality of opportunity.  Equality only meant that human beings  were equal in their rights and duties under the natural law.  And that allowed for great inequality in other respects.  [MUSIC PLAYING] ";
             output.Should().Be(expected);

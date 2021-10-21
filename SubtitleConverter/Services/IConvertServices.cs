@@ -1,6 +1,10 @@
 ﻿namespace SubtitleConverter.Services
 {
-    public interface IConvertServices
+    public interface IConvertToTextServices
+    {
+        string ConvertVTT(string input);
+    }
+    public interface IConvertToSrtServices
     {
         string ConvertVTT(string input);
     }

@@ -1,21 +1,18 @@
 {
   "format": 1,
   "restore": {
-    "C:\\GitHub\\vtt-to-text\\SubtitleConverter\\SubtitleConverter.csproj": {}
+    "D:\\CodistCafe\\vtt-to-text\\SubtitleConverter\\SubtitleConverter.csproj": {}
   },
   "projects": {
-    "C:\\GitHub\\vtt-to-text\\SubtitleConverter\\SubtitleConverter.csproj": {
+    "D:\\CodistCafe\\vtt-to-text\\SubtitleConverter\\SubtitleConverter.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\GitHub\\vtt-to-text\\SubtitleConverter\\SubtitleConverter.csproj",
+        "projectUniqueName": "D:\\CodistCafe\\vtt-to-text\\SubtitleConverter\\SubtitleConverter.csproj",
         "projectName": "SubtitleConverter",
-        "projectPath": "C:\\GitHub\\vtt-to-text\\SubtitleConverter\\SubtitleConverter.csproj",
+        "projectPath": "D:\\CodistCafe\\vtt-to-text\\SubtitleConverter\\SubtitleConverter.csproj",
         "packagesPath": "C:\\Users\\liuji\\.nuget\\packages\\",
-        "outputPath": "C:\\GitHub\\vtt-to-text\\SubtitleConverter\\obj\\",
+        "outputPath": "D:\\CodistCafe\\vtt-to-text\\SubtitleConverter\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
           "C:\\Users\\liuji\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -87,7 +84,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

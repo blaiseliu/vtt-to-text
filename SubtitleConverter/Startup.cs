@@ -11,18 +11,21 @@ namespace SubtitleConverter
     {
         #region DI
         private readonly ILogger<Startup> _log;
-        private readonly IConvertProcess _process;
+        private readonly IConvertToTextProcess _convertToText;
+        private readonly IConvertToSrtProcess _convertToSrt;
 
-        public Startup(ILogger<Startup> log, IConvertProcess process)
+        public Startup(ILogger<Startup> log, IConvertToSrtProcess convertToSrt, IConvertToTextProcess convertToText)
         {
             _log = log;
-            _process = process;
+            _convertToSrt = convertToSrt;
+            _convertToText = convertToText;
         }
         #endregion
         public void Run(string[] args)
         {
-            Parser.Default.ParseArguments<ConvertOptions>(args)
-                .WithParsed(x => _process.Process(x))
+            Parser.Default.ParseArguments<ConvertToTextOptions, ConvertToSrtOptions>(args)
+                .WithParsed<ConvertToTextOptions>(x => _convertToText.Process(x))
+                .WithParsed<ConvertToSrtOptions>(x => _convertToSrt.Process(x))
                 .WithNotParsed(HandleParseError);
 
             Console.WriteLine("Press any key to finish.");
